@@ -1,4 +1,4 @@
-FROM openjdk:8-jre-slim
+FROM eclipse-temurin:8-jre-focal
 
 RUN apt-get update && apt-get --yes upgrade && \
     apt-get install -y python3 python3-pip curl && \
